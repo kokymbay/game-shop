@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Grand Theft Auto V",
+        "price": 2150,
+        "image": "https://i.pinimg.com/originals/b3/41/0a/b3410a93baab7154a78187222b753f27.jpg"
+    },
+    {
+        "id": 2,
+        "name": "FIFA 23",
+        "price": 14000,
+        "image": "https://cdnn21.img.ria.ru/images/07e6/07/15/1804099311_0:0:1920:1080_1920x0_80_0_0_6042d4bbdab15df55dd2a68e23bb71d3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Minecraft",
+        "price": 11800,
+        "image": "https://w0.peakpx.com/wallpaper/105/594/HD-wallpaper-video-game-minecraft.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sons of the Forest",
+        "price": 7600,
+        "image": "https://www.4wearegamers.com/wp-content/uploads/2022/03/sons-of-the-forest-bande-annonce-date-de-sortie.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Elden Ring",
+        "price": 18000,
+        "image": "https://images4.alphacoders.com/115/thumb-1920-1151249.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hogwarts Legacy",
+        "price": 12000, 
+        "image": "https://www.esrb.org/wp-content/uploads/2023/02/Featured-V2.jpg"
+    }
+]

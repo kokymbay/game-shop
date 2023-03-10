@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: url('./images/img.jpg'), linear-gradient(45deg, rgb(131, 22, 22) 30%, rgb(7, 7, 105) 100%);
+    // height: 50vw;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+
+.header {
+    background-color: rgb(116, 14, 14);
+    color: white;
+    display: flex;
+
+    padding: 7px;
+
+    h3 {
+        margin: auto;
+    }
+
+    .links {
+        margin-right: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        a {
+            margin-left: 50px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: black;
+        }
+    }
+
+    .basket-items {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .header-logo {
+        margin: auto;
+    }
+
+}
+
+
+.Nav {
+
+    // display: flex;
+    color: white;
+    margin-top: 100px;
+    margin-left: auto;
+    .product-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .items {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        background: linear-gradient(45deg, rgb(37, 25, 32) 10%, rgb(119, 13, 13) 100%);
+        gap: 15px;
+        // text-align: center;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 1px 1px 10px rgb(24, 23, 23);
+        padding-bottom: 15px;
+
+        img {
+            width: 350px;
+            height: 250px;
+            border-radius: 10px 10px 0 0;
+
+            object-fit: cover;
+        }
+
+        .card-content {
+            margin-left: 15px;
+        }
+    }
+    .skeleton-items {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.support-card {
+    color: white;
+    margin-top: 70px;
+    margin-left: 5vw;
+}
+.not-found {
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    .not-found-card {
+        margin: auto;
+    }
+}
